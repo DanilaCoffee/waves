@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Waves</title>
+	<style>
+		::-webkit-scrollbar {
+		  width: 0;
+		}
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.cell {
+			width: Calc(100vw / 80);
+			height: Calc(100vh / 38);
+			float: left;
+			border: 1px solid #5D5D5D;
+			box-sizing: border-box;
+		}
+		.active {
+			background-color: #F17D7D;
+		}
+	</style>
+</head>
+<body>
+	<div class="main"></div>
+	<script src="main.js"></script>
+</body>
+</html>
